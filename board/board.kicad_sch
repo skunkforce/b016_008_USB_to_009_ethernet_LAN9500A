@@ -338,8 +338,8 @@
   (no_connect (at 82.55 88.9) (uuid 578835db-bedf-4127-911e-bb7e8166e8bb))
   (no_connect (at 82.55 81.28) (uuid 98740461-48f4-4e72-9068-2ad155e0ca12))
   (no_connect (at 82.55 91.44) (uuid b8ba5d29-026e-4aed-82a0-4169133238b3))
-  (no_connect (at 162.56 90.17) (uuid b8ba5d29-026e-4aed-82a0-4169133238b3))
-  (no_connect (at 162.56 92.71) (uuid b8ba5d29-026e-4aed-82a0-4169133238b3))
+  (no_connect (at 162.56 90.17) (uuid b8ba5d29-026e-4aed-82a0-4169133238b4))
+  (no_connect (at 162.56 92.71) (uuid b8ba5d29-026e-4aed-82a0-4169133238b5))
   (no_connect (at 82.55 83.82) (uuid f7f2a514-07e5-4f91-9b79-fbf80a0e0fd1))
 
   (wire (pts (xy 152.4 86.36) (xy 162.56 86.36))
@@ -475,7 +475,7 @@
     (property "Reference" "J2" (id 0) (at 182.3212 82.2198 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "009_1000BASE-T_2x5" (id 1) (at 182.3212 84.5312 0)
+    (property "Value" "019_1000BASE-T_with_CT" (id 1) (at 182.3212 84.5312 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "on_edge:on_edge_2x05_host" (id 2) (at 181.61 66.04 0)
@@ -818,7 +818,7 @@
       (reference "J1") (unit 1) (value "008_USB_2x2") (footprint "on_edge:on_edge_2x05_device")
     )
     (path "/00000000-0000-0000-0000-00006036f103"
-      (reference "J2") (unit 1) (value "009_1000BASE-T_2x5") (footprint "on_edge:on_edge_2x05_host")
+      (reference "J2") (unit 1) (value "019_1000BASE-T_with_CT") (footprint "on_edge:on_edge_2x05_host")
     )
     (path "/00000000-0000-0000-0000-0000603703e4/00000000-0000-0000-0000-00005f44cffe"
       (reference "R2") (unit 1) (value "12k") (footprint "Resistor_SMD:R_0603_1608Metric")
